@@ -1,0 +1,73 @@
+body {
+    background-color: aqua;
+}
+
+.tarolo {
+    background-color: aliceblue;
+    width: 80%;
+    max-width: 800px;
+    margin:auto; /* oldal közepére*/
+}
+
+.tartalom {
+    background-color: pink;
+    border: 1px solid black;
+    padding: 10px;
+    /* szülőelem */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.szoveg {
+    background-color: brown;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.kepek {
+    /* Piv divek szülőeleme */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.pic  {
+    overflow: hidden;
+}
+
+.pic img {
+    width: 100%;
+}
+
+/* Menü kilakítása */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.menu ul li {
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: red;
+}
+
+.menu ul a:hover {
+    color: brown;
+}
+
+.menu ul li:hover {
+    background-color: blueviolet;
+}
+
